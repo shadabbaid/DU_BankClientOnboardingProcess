@@ -1,0 +1,1831 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "Connections": [],
+      "DocumentTypeId": "CentralBankofIndia.CreditCard.CreditCardApplication",
+      "Group": "Central Bank of India",
+      "Category": "Credit Card Team",
+      "Name": "Credit Card Application",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.CardTypeDomestic",
+          "FieldName": "Card Type Domestic",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.CardTypeInternational",
+          "FieldName": "Card Type International",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.CardvariantPlatinum",
+          "FieldName": "Card variant Platinum",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.CardvariantWorld",
+          "FieldName": "Card variant World",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.CardvariantGold",
+          "FieldName": "Card variant Gold",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d2d550"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Firstname",
+          "FieldName": "First name",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#a2d550"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Middlename",
+          "FieldName": "Middle name",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#4462d5"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Lastname",
+          "FieldName": "Last name",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d622d4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Nameoncard",
+          "FieldName": "Name on card",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e2357a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Mother'smaidenname",
+          "FieldName": "Mother's maiden name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7681f3"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Age",
+          "FieldName": "Age",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#55c07b"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.GenderMale",
+          "FieldName": "Gender Male",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b832af"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.GenderFemale",
+          "FieldName": "Gender Female",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7666b4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "j"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Dateofbirth",
+          "FieldName": "Date of birth",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "DD,MM,YYYY",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#95aee1"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "k"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Nationality",
+          "FieldName": "Nationality",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#55cee2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "z"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.VehicleownedCar",
+          "FieldName": "Vehicle owned Car",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#22c022"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "x"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.VehicleownedTwoWheeler",
+          "FieldName": "Vehicle owned Two Wheeler",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c8a089"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "1"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.VehicleownedNone",
+          "FieldName": "Vehicle owned None",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e84027"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "2"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.VehicleownedOrganizationprovided",
+          "FieldName": "Vehicle owned Organization provided",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#1cde91"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "3"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.NoofDependents-0",
+          "FieldName": "No of Dependents - 0",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#ba8899"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "4"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.NoofDependents-1",
+          "FieldName": "No of Dependents - 1",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#ea3bed"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "5"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.NoofDependents-2",
+          "FieldName": "No of Dependents - 2",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#696338"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "6"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.NoofDependents-3",
+          "FieldName": "No of Dependents - 3",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#81cdaa"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "7"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.NoofDependents-4",
+          "FieldName": "No of Dependents - 4",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#63925c"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "8"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.NoofDependents-4_1",
+          "FieldName": "No of Dependents - >4",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#812eff"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": ">"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Married-Yes",
+          "FieldName": "Married - Yes",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c055dc"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Married-No",
+          "FieldName": "Married - No",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#3273ca"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "@"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Married-Others",
+          "FieldName": "Married - Others",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#dbaf96"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "#"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Address",
+          "FieldName": "Address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5c5df1"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "$"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Employmentstatus-Salaried",
+          "FieldName": "Employment status - Salaried",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#84a1c2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "%"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Employmentstatus-Retired",
+          "FieldName": "Employment status - Retired",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#810095"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "^"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Employmentstatus-SelfEmployed",
+          "FieldName": "Employment status - Self Employed",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#82cde9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "&"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.NameoftheCompany",
+          "FieldName": "Name of the Company",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c867e8"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "*"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Designation",
+          "FieldName": "Designation",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e570b8"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "("
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Officeaddress",
+          "FieldName": "Office address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#f132ff"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": ")"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Creditcardsheld",
+          "FieldName": "Credit cards held",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Creditcardsheld.SNo",
+              "FieldName": "S.No",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Creditcardsheld.CardNumber",
+              "FieldName": "Card Number",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Creditcardsheld.IssuedbyBank",
+              "FieldName": "Issued by Bank",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "CentralBankofIndia.CreditCard.CreditCardApplication.Creditcardsheld.CreditLimit",
+              "FieldName": "Credit Limit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b795c7"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "["
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication",
+      "Group": "State Bank of India",
+      "Category": "Account Opening Team",
+      "Name": "Account Opening Application",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.CustomertypePublic",
+          "FieldName": "Customer type - Public",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Customertype-Staff",
+          "FieldName": "Customer type - Staff",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Salutation-Mr",
+          "FieldName": "Salutation - Mr",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Salutation-Mrs",
+          "FieldName": "Salutation - Mrs",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Salutation-Ms",
+          "FieldName": "Salutation - Ms",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c0c342"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Salutation-Others",
+          "FieldName": "Salutation - Others",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c222cf"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Fullname",
+          "FieldName": "Full name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#22a0db"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Dateofbirth",
+          "FieldName": "Date of birth",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e4d360"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Gender-Male",
+          "FieldName": "Gender - Male",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e2357a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Gender-Female",
+          "FieldName": "Gender - Female",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#323bc3"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Nationality",
+          "FieldName": "Nationality",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#1c54f1"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Maritalstatus-Married",
+          "FieldName": "Marital status - Married",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#984c52"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "j"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Maritalstatus-Unmarried",
+          "FieldName": "Marital status - Unmarried",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#22dbfd"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "k"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Maritalstatus-Others",
+          "FieldName": "Marital status - Others",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e3e022"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "z"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Overseasaddress",
+          "FieldName": "Overseas address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#bb15af"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.City",
+          "FieldName": "City",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d6c022"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "x"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Country",
+          "FieldName": "Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e6c542"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "1"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Passportdetails",
+          "FieldName": "Passport details",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Passportdetails.PassportNo",
+              "FieldName": "Passport No",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Passportdetails.IssueDate",
+              "FieldName": "Issue Date",
+              "IsMultiValue": false,
+              "Type": "Date",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Passportdetails.Placeofissue",
+              "FieldName": "Place of issue",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Passportdetails.Nationality",
+              "FieldName": "Nationality",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Passportdetails.ValidUpto",
+              "FieldName": "Valid Upto",
+              "IsMultiValue": false,
+              "Type": "Date",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7f4027"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "2"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.AccountOpeningTeam.AccountOpeningApplication.Applicantsignature",
+          "FieldName": "Applicant signature",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#52a8b1"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "3"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "SBIBank.KYCTeam.KYCDocument",
+      "Group": "State Bank of India",
+      "Category": "KYC Team",
+      "Name": "KYC Document",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "SBIBank.KYCTeam.KYCDocument.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Applicationtype-New",
+          "FieldName": "Application type - New",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Applicationtype-ChangeRequest",
+          "FieldName": "Application type - Change Request",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Nameoftheapplicant",
+          "FieldName": "Name of the applicant",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Gender-Male",
+          "FieldName": "Gender - Male",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Gender-Female",
+          "FieldName": "Gender - Female",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b9cd82"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Maritalstatus-Single",
+          "FieldName": "Marital status - Single",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#27dc69"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Maritalstatus-Married",
+          "FieldName": "Marital status - Married",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#9740dd"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Dateofbirth",
+          "FieldName": "Date of birth",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fca027"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Nationality-Indian",
+          "FieldName": "Nationality - Indian",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#97bfd3"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Nationality-Others",
+          "FieldName": "Nationality - Others",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d9738f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Residentialstatus-ResidentIndividual",
+          "FieldName": "Residential status - Resident Individual",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#dfcc81"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Residentialstatus-NonResident",
+          "FieldName": "Residential status - Non Resident",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d2aa38"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "j"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Residentialstatus-ForeignNational",
+          "FieldName": "Residential status - Foreign National",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#ca7ae9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "k"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Addressforcorrespondence",
+          "FieldName": "Address for correspondence",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6d3d42"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "SBIBank.KYCTeam.KYCDocument.Applicantsignature",
+          "FieldName": "Applicant signature",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7e66cf"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "z"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Central Bank of India",
+      "Categories": [
+        "Credit Card Team"
+      ]
+    },
+    {
+      "Name": "State Bank of India",
+      "Categories": [
+        "Account Opening Team",
+        "KYC Team"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    }
+  ]
+}

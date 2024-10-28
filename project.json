@@ -1,0 +1,184 @@
+{
+  "name": "DU_BankClientOnboardingProcess",
+  "projectId": "0e111a70-bb03-4d88-b3a8-1369315643fb",
+  "description": "Extracts the fields from the documents i.e Credit Card Applications and Bank Account Opening forms and generate the extracted results in Excel files.",
+  "main": "Main-Attended.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.28.6]",
+    "UiPath.Excel.Activities": "[2.22.3]",
+    "UiPath.IntelligentOCR.Activities": "[6.19.5]",
+    "UiPath.System.Activities": "[23.10.3]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.8]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7fb1f787-de3f-42e8-8ffd-7268639331a6",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\15_GetTransaction\\NoQueueItem.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c3847428-0837-4e6e-ac71-827d43059c38",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\15_GetTransaction\\NoSpecificContent.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7d651d77-19c7-4c28-8d48-1f29d51a1fa0",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\20_Digitization\\Digitize.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "784d0388-e5b7-40b6-b888-6aa4df43141f",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\30_Classification\\Classify.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b9fc0e3b-6880-49e2-a696-cd03a29e4bfc",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\50_Extraction\\Extraction.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4d4aa638-bf3d-461a-9831-a242d9b3331a",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\55_ExtractionValidation\\Invoice_Date.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a8569a17-accf-4f88-9f81-ced06c1da80b",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\55_ExtractionValidation\\Invoice_MandatoryFields.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "dfaa9580-b5e4-4b23-a02d-18546922eb5b",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\55_ExtractionValidation\\Invoice_OtherFieldsConfidence.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ded8bc81-0450-4f1b-93b3-4021075ab5a4",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\55_ExtractionValidation\\Invoice_SpecificFieldConfidence.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9a11459f-5fdd-462a-b1b0-16a929d4239d",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\55_ExtractionValidation\\Invoice_Subtotal.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "35817602-d153-48ba-99d6-b4e5f8886e06",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\55_ExtractionValidation\\Invoice_Total.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "93d357a7-90e7-41b6-9913-2c0d7cf857e4",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\55_ExtractionValidation\\Receipt_Date.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "093c595c-1440-49fc-a728-bebbb6eaac91",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\55_ExtractionValidation\\Receipt_MandatoryFields.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "08fb69cf-7a46-467c-ab3b-b9611674e432",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\55_ExtractionValidation\\Receipt_OtherFieldsConfidence.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c5882f27-9131-4025-9a7f-8c33b89be645",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\55_ExtractionValidation\\Receipt_SpecificFieldConfidence.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "58773e9b-ec13-4541-bffe-520ec8f73743",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\55_ExtractionValidation\\Receipt_Total.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fa381303-107c-4e99-94bd-69fba6b81517",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\70_Export\\Export.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fba1980f-b518-4c10-a2ea-5dab4987aa99",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\15_GetTransaction\\QueueItemSpecificContent.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e84495ac-75a5-4444-bd0f-069536d7ef1c",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\35_ClassificationValidation\\ClassificationBRConfidence.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main-Attended.xaml",
+      "uniqueId": "16c6ebb5-b08e-4b2a-8902-de0d53aa3f8f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main-ActionCenter.xaml",
+      "uniqueId": "32d8a8ca-3201-4033-8b82-245a2994b0d8",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
